@@ -1,0 +1,18 @@
+name: Site Integrity
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate minimum site structure
+        shell: pwsh
+        run: ./.github/scripts/validate-site.ps1

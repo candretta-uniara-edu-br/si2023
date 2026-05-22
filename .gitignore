@@ -1,0 +1,25 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+.vs/
+
+# Temporary editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Runtime and dependency folders
+node_modules/
+coverage/
