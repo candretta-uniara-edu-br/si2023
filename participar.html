@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI 2023 | Como Participar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">SI 2023</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a class="nav-link" href="index.html">Início</a>
+                <a class="nav-link" href="alunos.html">Alunos</a>
+                <a class="nav-link is-active" href="participar.html">Como participar</a>
+                <a class="nav-link" href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container contact-layout">
+            <section class="panel">
+                <p class="eyebrow">Guia da atividade</p>
+                <h1>Como participar do projeto</h1>
+                <p class="lead small-lead">
+                    Esta página resume o processo para cada aluno criar seu currículo,
+                    editar a lista da turma e publicar sua contribuição no repositório.
+                </p>
+            </section>
+
+            <section class="panel">
+                <h2>Antes de começar</h2>
+                <ol class="steps-list">
+                    <li>Solicite acesso ao repositório criando uma issue em <a class="student-link" href="https://github.com/candretta-uniara-edu-br/si2023/issues/new">github.com/candretta-uniara-edu-br/si2023/issues/new</a>.</li>
+                    <li>Na issue, informe corretamente seu e-mail institucional <strong>@uniara.edu.br</strong>.</li>
+                    <li>O acesso é liberado apenas para alunos da Uniara com e-mail institucional válido.</li>
+                    <li>Depois da liberação, aceite o convite em <a class="student-link" href="https://github.com/settings/repositories">github.com/settings/repositories</a>.</li>
+                    <li>Clone o projeto usando GitHub Desktop.</li>
+                    <li>Abra a pasta do projeto no VS Code.</li>
+                </ol>
+            </section>
+
+            <section class="panel">
+                <h2>O que você precisa editar</h2>
+                <ol class="steps-list">
+                    <li>Duplique `curriculos/modelo.html` e renomeie com seu nome.</li>
+                    <li>Edite sua página de currículo com seus dados.</li>
+                    <li>Abra `alunos.html`.</li>
+                    <li>Copie um card de aluno dentro da área `#lista-alunos`.</li>
+                    <li>Troque nome, código, curso e link para o seu currículo.</li>
+                </ol>
+            </section>
+
+            <section class="panel">
+                <h2>Cuidados importantes</h2>
+                <ul class="feature-list">
+                    <li>Use sempre o mesmo e-mail `@uniara.edu.br` na solicitação, no convite e no acesso ao repositório.</li>
+                    <li>Mantenha seu card dentro da div `#lista-alunos`.</li>
+                    <li>Não altere a estrutura principal da página sem necessidade.</li>
+                    <li>Confirme se o link do currículo abre corretamente.</li>
+                    <li>Se houver conflito de código, revise o HTML com atenção antes de enviar.</li>
+                </ul>
+            </section>
+
+            <section class="panel">
+                <h2>Checklist final</h2>
+                <ol class="steps-list">
+                    <li>Seu currículo está dentro da pasta `curriculos`.</li>
+                    <li>O link em `alunos.html` aponta para o arquivo correto.</li>
+                    <li>Seu nome aparece na lista da turma.</li>
+                    <li>Você fez commit com uma mensagem clara.</li>
+                    <li>Você enviou as alterações para o repositório.</li>
+                </ol>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Guia rápido para participação dos alunos no projeto SI 2023.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -5,7 +5,13 @@ Ambiente da turma 2023 do curso de Sistemas de Informação da Uniara para exper
 
 Este arquivo deve ser sempre consultado e incrementado cronologicamente por colaboradores ou por agentes autônomos. Aqui ficará a descrição do site/sistema e o registro das operações de incremento ou ajustes realizados.
 
-Para colaborar no projeto, cada aluno precisa solicitar acesso criando uma issue no repositório https://github.com/candretta-uniara-edu-br/si2023 informando seu e-mail `@uniara.edu.br`, que será usado no GitHub Desktop.
+Para colaborar no projeto, cada aluno precisa solicitar acesso ao repositório criando uma issue em https://github.com/candretta-uniara-edu-br/si2023/issues/new.
+
+O acesso só será liberado para endereços `@uniara.edu.br`, para garantir que apenas alunos da Uniara participem do projeto.
+
+Na issue, informe corretamente o e-mail institucional `@uniara.edu.br` que será usado no GitHub Desktop e no recebimento do convite.
+
+Depois da liberação, o convite pode ser aceito em https://github.com/settings/repositories.
 
 ### objetivo da atividade
 
@@ -18,13 +24,15 @@ Cada aluno deverá:
 ### fluxo de trabalho sugerido
 
 1. Solicite acesso ao repositório.
-2. Clone o projeto no GitHub Desktop.
-3. Abra a pasta do projeto no VS Code.
-4. Crie seu currículo a partir do arquivo `curriculos/modelo.html`.
-5. Edite `alunos.html` e adicione seu card na lista.
-6. Revise os arquivos para verificar se o link para o currículo está correto.
-7. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo de Maria Souza`.
-8. Envie as alterações para o repositório.
+2. Crie a solicitação em https://github.com/candretta-uniara-edu-br/si2023/issues/new informando que deseja acesso ao repositório e escreva corretamente seu e-mail institucional `@uniara.edu.br`.
+3. Aguarde e aceite o convite em https://github.com/settings/repositories.
+4. Clone o projeto no GitHub Desktop.
+5. Abra a pasta do projeto no VS Code.
+6. Crie seu currículo a partir do arquivo `curriculos/modelo.html`.
+7. Edite `alunos.html` e adicione seu card na lista.
+8. Revise os arquivos para verificar se o link para o currículo está correto.
+9. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo de Maria Souza`.
+10. Envie as alterações para o repositório.
 
 ### estrutura do site
 
@@ -35,6 +43,7 @@ Arquivos principais:
 - `index.html`: página inicial com a descrição do projeto.
 - `contato.html`: página de contato da turma/projeto.
 - `alunos.html`: lista de alunos editada diretamente no HTML.
+- `participar.html`: guia resumido de participação para os alunos.
 - `css/styles.css`: estilos compartilhados.
 - `js/main.js`: comportamentos da interface e contagem automática dos cards de alunos.
 - `curriculos/modelo.html`: modelo base para cada aluno criar seu currículo.
@@ -75,3 +84,4 @@ Use este modelo dentro de `alunos.html`:
 - Inclusão de navegação entre páginas, lista de alunos e modelo de currículo individual.
 - Ajuste da lista de alunos para edição manual em HTML, em vez de cadastro central em JavaScript.
 - Revisão das instruções para deixar o fluxo de edição e entrega mais claro para os alunos.
+- Reforço do uso obrigatório de e-mail `@uniara.edu.br` e inclusão dos links diretos para abrir a issue e aceitar o convite.
