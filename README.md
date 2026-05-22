@@ -78,32 +78,6 @@ Use este modelo dentro de `alunos.html`:
 4. O currículo abre normalmente ao clicar no link.
 5. O card de exemplo não ficou sobrando sem necessidade.
 
-### deploy por ftp
-
-O projeto pode ser publicado automaticamente por GitHub Actions via FTP.
-
-Workflow criado:
-
-- `.github/workflows/ftp-deploy.yml`: publica o site por FTP quando houver push na branch `main`.
-
-Antes do envio, o workflow executa a validação de integridade do site usando o script `.github/scripts/validate-site.ps1`. Se a estrutura mínima estiver ausente ou algum arquivo essencial estiver corrompido, o deploy falha.
-
-Secrets necessários no GitHub:
-
-- `FTP_SERVER`: endereço do servidor FTP.
-- `FTP_USERNAME`: usuário do FTP.
-- `FTP_PASSWORD`: senha do FTP.
-- `FTP_PORT`: porta do FTP, por exemplo `21`.
-- `FTP_SERVER_DIR`: pasta remota onde o site será publicado, por exemplo `/public_html/si2023/`.
-
-Para configurar:
-
-1. Abra o repositório no GitHub.
-2. Vá em `Settings`.
-3. Abra `Secrets and variables` > `Actions`.
-4. Cadastre os secrets acima.
-5. Faça um push na branch `main` para disparar o deploy.
-
 ### registro desta alteração
 
 - Criação de um site estático simples e organizado para uso didático em sala.
@@ -111,4 +85,3 @@ Para configurar:
 - Ajuste da lista de alunos para edição manual em HTML, em vez de cadastro central em JavaScript.
 - Revisão das instruções para deixar o fluxo de edição e entrega mais claro para os alunos.
 - Reforço do uso obrigatório de e-mail `@uniara.edu.br` e inclusão dos links diretos para abrir a issue e aceitar o convite.
-- Inclusão de workflow de CD por FTP com validação prévia da estrutura mínima do site.
