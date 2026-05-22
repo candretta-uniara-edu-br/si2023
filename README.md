@@ -12,7 +12,7 @@ O acesso só será liberado para endereços `@uniara.edu.br`, para garantir que 
 
 Na issue, informe corretamente o e-mail institucional `@uniara.edu.br` que será usado no GitHub Desktop e no recebimento do convite.
 
-Depois da liberação, o convite pode ser aceito em https://github.com/settings/repositories.
+Depois da liberação, o convite pode ser aceito em https://github.com/candretta-uniara-edu-br/si2023/invitations ou https://github.com/settings/repositories.
 
 ### objetivo da atividade
 
