@@ -65,7 +65,6 @@ Use este modelo dentro de `alunos.html`:
 <article class="panel student-card">
     <h3>Maria Souza</h3>
     <p class="student-code">Código: RA2023001</p>
-    <p>Curso: Sistemas de Informação</p>
     <a class="student-link" href="curriculos/maria-souza.html">Ver currículo</a>
 </article>
 ```
