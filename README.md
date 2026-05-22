@@ -1,6 +1,8 @@
 # si2023
 https://candretta-uniara-edu-br.github.io/si2023/
 
+https://github.com/candretta-uniara-edu-br/si2023/
+
 ## instruções
 Ambiente da turma 2023 do curso de Sistemas de Informação da Uniara para experiências e testes sobre versionamento, DevOps e CI/CD com apoio do GitHub.
 
