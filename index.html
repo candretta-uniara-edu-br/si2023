@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI 2023 | Início</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">SI 2023</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a class="nav-link is-active" href="index.html">Início</a>
+                <a class="nav-link" href="alunos.html">Alunos</a>
+                <a class="nav-link" href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Projeto da turma</p>
+                    <h1>Um espaço simples para apresentar a turma e os currículos dos alunos.</h1>
+                    <p class="lead">
+                        Este site foi organizado para facilitar atividades didáticas com HTML, CSS, jQuery,
+                        versionamento e publicação de páginas individuais.
+                    </p>
+                    <div class="actions">
+                        <a class="button" href="alunos.html">Ver lista de alunos</a>
+                        <a class="button button-secondary" href="contato.html">Falar com a turma</a>
+                    </div>
+                </div>
+
+                <aside class="panel highlight-panel">
+                    <h2>Objetivos do projeto</h2>
+                    <ul class="feature-list">
+                        <li>Praticar a estruturação de páginas web estáticas.</li>
+                        <li>Manter um cadastro simples e legível dos alunos.</li>
+                        <li>Permitir que cada aluno publique seu próprio currículo.</li>
+                        <li>Facilitar manutenção e evolução do conteúdo em sala.</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container cards-grid">
+                <article class="panel">
+                    <h2>Como funciona</h2>
+                    <p>
+                        A página de alunos lê um pequeno cadastro em JavaScript e monta automaticamente
+                        a lista com nome, código e link para o currículo de cada estudante.
+                    </p>
+                </article>
+
+                <article class="panel">
+                    <h2>Organização</h2>
+                    <p>
+                        Os currículos ficam dentro da pasta <strong>curriculos</strong>, enquanto os estilos e scripts
+                        permanecem separados para facilitar entendimento e manutenção.
+                    </p>
+                </article>
+
+                <article class="panel">
+                    <h2>Uso didático</h2>
+                    <p>
+                        A proposta é deixar o projeto enxuto e claro, para que os alunos consigam localizar
+                        rapidamente onde editar cada informação.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>SI 2023 - Projeto didático com HTML, CSS e jQuery.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
