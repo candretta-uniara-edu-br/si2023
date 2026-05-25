@@ -57,12 +57,20 @@ Arquivos principais:
 2. Edite a nova página com os seus dados.
 3. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
 
+### como testar
+
+Depois de criar o seu arquivo, acesse a URL completa no navegador usando o nome do arquivo criado dentro da pasta `curriculos`.
+
+Exemplo:
+
+`https://candretta-uniara-edu-br.github.io/si2023/curriculos/maria-souza.html`
+
 ### checklist antes de enviar
 
 1. O arquivo do currículo está dentro da pasta `curriculos`.
 2. O novo arquivo foi criado a partir de `curriculos/modelo.html`.
 3. O arquivo original `curriculos/modelo.html` não foi alterado nem renomeado.
-4. O currículo abre normalmente.
+4. O currículo abre normalmente pela URL completa.
 
 ### registro desta alteração
 
