@@ -57,6 +57,28 @@ Arquivos principais:
 2. Edite a nova página com os seus dados.
 3. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
 
+### como adicionar seu card na página de alunos
+
+1. Abra o arquivo `alunos.html` e localize a seção com os cards dos alunos (bloco `div` com id `lista-alunos`).
+2. Copie um dos blocos `article` que representa um aluno e cole-o dentro de `div#lista-alunos`.
+3. Atualize o conteúdo do `article` com seu nome, código (RA) e o link para o seu currículo. Exemplo:
+
+```html
+<article class="panel student-card">
+	<h3>Seu Nome Completo</h3>
+	<p class="student-code">Código: RAxxxxxxx</p>
+	<a class="student-link" href="curriculos/seu-arquivo.html">Ver currículo</a>
+</article>
+```
+
+4. Faça commit com mensagem clara, por exemplo: `Adiciona currículo e card de Seu Nome`.
+5. Envie (push) suas alterações para o repositório.
+
+Observações:
+- Use nomes de arquivo sem espaços e com hifens, por exemplo `maria-souza.html`.
+- Garanta que o `href` do link aponte corretamente para o arquivo dentro da pasta `curriculos`.
+- Evite alterar a ordem ou o formato dos outros cards para não quebrar o layout.
+
 ### como testar
 
 Depois de criar o seu arquivo, acesse a URL completa no navegador usando o nome do arquivo criado dentro da pasta `curriculos`.
