@@ -1,6 +1,7 @@
 # si2023
-https://candretta-uniara-edu-br.github.io/si2023/
+O projeto agora possui um site estático simples, feito com HTML, CSS e jQuery, com foco didático.
 
+https://candretta-uniara-edu-br.github.io/si2023/
 https://github.com/candretta-uniara-edu-br/si2023/
 
 ## instruções
@@ -16,30 +17,8 @@ Na issue, informe corretamente o e-mail institucional `@uniara.edu.br` que será
 
 Depois da liberação, o convite pode ser aceito em https://github.com/candretta-uniara-edu-br/si2023/invitations ou https://github.com/settings/repositories.
 
-### objetivo da atividade
-
-Cada aluno deverá:
-
-1. Criar sua própria página de currículo na pasta `curriculos`.
-2. Copiar `curriculos/modelo.html` para um novo arquivo com o seu nome.
-3. Editar apenas a cópia com os seus dados e publicar a alteração no repositório.
-
-### fluxo de trabalho sugerido
-
-1. Solicite acesso ao repositório.
-2. Crie a solicitação em https://github.com/candretta-uniara-edu-br/si2023/issues/new informando que deseja acesso ao repositório e escreva corretamente seu e-mail institucional `@uniara.edu.br`.
-3. Aguarde e aceite o convite em https://github.com/settings/repositories.
-4. Clone o projeto no GitHub Desktop.
-5. Abra a pasta do projeto no VS Code.
-6. Copie o arquivo `curriculos/modelo.html` para um novo arquivo de currículo com o seu nome.
-7. Edite a cópia com os seus dados.
-8. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
-9. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo de Maria Souza`.
-10. Envie as alterações para o repositório.
-
 ### estrutura do site
 
-O projeto agora possui um site estático simples, feito com HTML, CSS e jQuery, com foco didático.
 
 Arquivos principais:
 
@@ -50,6 +29,20 @@ Arquivos principais:
 - `css/styles.css`: estilos compartilhados.
 - `js/main.js`: comportamentos da interface e contagem automática dos cards de alunos.
 - `curriculos/modelo.html`: modelo base para cada aluno criar seu currículo.
+
+### fluxo de trabalho sugerido
+
+1. Solicite acesso ao repositório.
+2. Crie a solicitação em https://github.com/candretta-uniara-edu-br/si2023/issues/new informando que deseja acesso ao repositório e escreva corretamente seu e-mail institucional `@uniara.edu.br`.
+3. Aguarde e aceite o convite em https://github.com/settings/repositories.
+4. Clone o projeto no GitHub Desktop.
+5. Abra a pasta do projeto no VS Code.
+6. Copie o arquivo `curriculos/modelo.html` para um novo arquivo de currículo com o seu nome.
+7. Edite a cópia com os seus dados.
+8. Abra `alunos.html` e adicione um card com seu nome, código (RA) e link para o seu currículo na pasta `curriculos`.
+9. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
+10. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo e card de Maria Souza`.
+11. Envie as alterações para o repositório.
 
 ### como criar seu currículo
 
@@ -92,11 +85,7 @@ Exemplo:
 1. O arquivo do currículo está dentro da pasta `curriculos`.
 2. O novo arquivo foi criado a partir de `curriculos/modelo.html`.
 3. O arquivo original `curriculos/modelo.html` não foi alterado nem renomeado.
-4. O currículo abre normalmente pela URL completa.
-
-### registro desta alteração
-
-- Criação de um site estático simples e organizado para uso didático em sala.
-- Inclusão de navegação entre páginas, lista de alunos e modelo de currículo individual.
-- Revisão das instruções para focar apenas na cópia do modelo de currículo e na edição do arquivo individual.
-- Reforço do uso obrigatório de e-mail `@uniara.edu.br` e inclusão dos links diretos para abrir a issue e aceitar o convite.
+4. Você adicionou um card com seu nome, código (RA) e link do currículo em `alunos.html`.
+5. O currículo abre normalmente pela URL completa.
+6. Você fez commit com mensagem clara (ex.: `Adiciona currículo e card de Seu Nome`).
+7. Você enviou (push) as alterações para o repositório.
