@@ -22,27 +22,49 @@
         </div>
     </header>
 
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">SI 2023 - 2</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a class="nav-link" href="index.html">Início</a>
+                <a class="nav-link is-active" href="alunos.html">Alunos</a>
+                <a class="nav-link" href="participar.html">Como participar</a>
+                <a class="nav-link" href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
     <main class="section">
         <div class="container">
             <div class="section-heading">
                 <p class="eyebrow">Cadastro da turma</p>
                 <h1>Lista de alunos</h1>
                 <p class="lead small-lead">
-                    Cada aluno pode incluir seu nome, código e o link para sua página de currículo.
-                    A lista abaixo fica diretamente neste arquivo para que a turma edite o HTML final
-                    e vivencie também situações reais de manutenção e conflito de código.
+                    Esta página reúne os currículos publicados pela turma.
+                    Para criar o seu, copie o modelo de currículo, edite apenas a sua cópia
+                    e preserve o arquivo original `curriculos/modelo.html`.
                 </p>
             </div>
 
             <section class="panel info-panel">
-                <h2>Como adicionar seu nome</h2>
+                <h2>Como criar seu currículo</h2>
                 <ol class="steps-list">
-                    <li>Crie sua página a partir do modelo em <strong>curriculos/modelo.html</strong>.</li>
-                    <li>Renomeie o arquivo com seu nome, por exemplo: <strong>joao-silva.html</strong>.</li>
-                    <li>Copie um card de aluno abaixo e edite diretamente este arquivo <strong>alunos.html</strong>.</li>
-                    <li>Mantenha o novo card dentro da área da lista, sem alterar a estrutura externa da página.</li>
-                    <li>Substitua o card de exemplo por um aluno real ou remova-o quando ele não for mais necessário.</li>
+                    <li>Copie o modelo em <strong>curriculos/modelo.html</strong> para um novo arquivo.</li>
+                    <li>Renomeie apenas a cópia com seu nome, por exemplo: <strong>joao-silva.html</strong>.</li>
+                    <li>Edite a nova página com seus dados.</li>
+                    <li>Não altere nem renomeie o arquivo original <strong>curriculos/modelo.html</strong>.</li>
                 </ol>
+            </section>
+
+            <section class="panel">
+                <h2>Como testar</h2>
+                <p>
+                    Depois de criar seu arquivo em <strong>curriculos</strong>, digite a URL completa no navegador
+                    usando o nome do arquivo criado.
+                </p>
+                <p>
+                    Exemplo: <a class="student-link" href="https://candretta-uniara-edu-br.github.io/si2023/curriculos/maria-souza.html">https://candretta-uniara-edu-br.github.io/si2023/curriculos/maria-souza.html</a>
+                </p>
             </section>
 
             <section aria-labelledby="titulo-lista-alunos">
@@ -51,30 +73,89 @@
                     <span id="total-alunos" class="badge">1 aluno</span>
                 </div>
                 <div id="lista-alunos" class="student-grid">
-                    <!--
-                        Adicione novos cards de alunos dentro desta div.
-                        Copie o bloco <article class="panel student-card">...</article>
-                        e altere nome, código, curso e link do currículo.
-                    -->
+                    
+
+                    <article class="panel student-card">
+                        <h3>Gabriel Bomfim Mota da Silva</h3>
+                        <p class="student-code">Código: 04723102</p>
+                        <a class="student-link" href="si2023/curriculos/Gabriel-Modelo2.html">Ver currículo</a>
+                    </article>
                     <article class="panel student-card">
                         <h3>Bruno</h3>
                         <p class="student-code">Código: RA04723086</p>
                         <a class="student-link" href="curriculos/bruno.html">Ver currículo</a>
+                      
+                                   </article>
+
+                     <article class="panel student-card">
+                        <h3>Caio Gonçalves</h3>
+                        <p class="student-code">Código: RA04723-063</p>
+                        <a class="student-link" href="curriculos/caio-goncalves.html">Ver currículo</a>
                     </article>
+
+                    <article class="panel student-card">
+                        <h3>Henry Guidelli</h3>
+                        <p class="student-code">Código: RA04724556</p>
+                        <a class="student-link" href="curriculos/henry-guidelli.html">Ver currículo</a>
+                    </article>
+
+                    <article class="panel student-card">
+                        <h3>Maria Elisa Eduardo Alves</h3>
+                        <p class="student-code">Código: RA04723072</p>
+                        <a class="student-link" href="curriculos/Maria Elisa.html">Ver currículo</a>
+                    </article>
+
+                     <article class="panel student-card">
+                        <h3>celso</h3>
+                        <p class="student-code">Código: RA2023000</p>
+                        <a class="student-link" href="curriculos/modelo.html">Ver currículo</a>
+                    </article>
+                  
+                    <article class="panel student-card">
+                        <h3>Krysthian Galbiatti Hernández/h3>
+                        <p class="student-code">Código: RA04723057</p>
+                        <a class="student-link" href="curriculos/krysthian.html">Ver currículo</a>
+
                     <article class="panel student-card">
                         <h3>Guilherme</h3>
                         <p class="student-code">Código: RA04723092</p>
                         <a class="student-link" href="curriculos/bruno.html">Ver currículo</a>
                         <a class="student-link" href="curriculos/guilherme.html">Ver currículo</a>
+                                     </article>
+
+                     <article class="panel student-card">
+                      
+                      <h3>Lucas Firmino</h3>
+                        <p class="student-code">Código: RA04721300</p>
+                        <a class="student-link" href="./curriculos//lucas-firmino.html">Ver currículo</a>
                     </article>
-                </div>
+
+                     <article class="panel student-card">
+                        <h3>Higor Robert Barbist</h3>
+                        <p class="student-code">Código: RA04723027</p>
+                        <a class="student-link" href="curriculos/modelo.html">Ver currículo</a>
+                    </article>
+
+                    <article class="panel student-card">
+                        <h3>Joao Vitor Araujo</h3>
+                        <p class="student-code">Código: RA04723030</p>
+                        <a class="student-link" href="curriculos/modelo.html">Ver currículo</a>
+                    </article>
+          
+                        <h3>Lucas Cabrio</h3>
+                        <p class="student-code">Código: RA04723-133</p>
+                        <a class="student-link" href="curriculos/lucasCabrio.html">Ver currículo</a>
+                    </article>
+
+
+              </div>
             </section>
         </div>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>Edite os cards desta página para incluir novos alunos e currículos.</p>
+            <p>Consulte esta página para acessar os currículos já publicados pela turma.</p>
         </div>
     </footer>
 

@@ -1,4 +1,4 @@
-name: FTP Deploy
+name: FTP Deploy Disabled
 
 on:
   push:
@@ -19,6 +19,7 @@ jobs:
         run: ./.github/scripts/validate-site.ps1
 
       - name: Deploy via FTP
+        if: false
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
