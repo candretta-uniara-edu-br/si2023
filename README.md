@@ -36,13 +36,14 @@ Arquivos principais:
 2. Crie a solicitação em https://github.com/candretta-uniara-edu-br/si2023/issues/new informando que deseja acesso ao repositório e escreva corretamente seu e-mail institucional `@uniara.edu.br`.
 3. Aguarde e aceite o convite em https://github.com/settings/repositories.
 4. Clone o projeto no GitHub Desktop.
-5. Abra a pasta do projeto no VS Code.
-6. Copie o arquivo `curriculos/modelo.html` para um novo arquivo de currículo com o seu nome.
-7. Edite a cópia com os seus dados.
-8. Abra `alunos.html` e adicione um card com seu nome, código (RA) e link para o seu currículo na pasta `curriculos`.
-9. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
-10. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo e card de Maria Souza`.
-11. Envie as alterações para o repositório.
+5. Crie uma branch com seu nome completo, por exemplo: `maria-souza` ou `joao-silva`.
+6. Abra a pasta do projeto no VS Code.
+7. Copie o arquivo `curriculos/modelo.html` para um novo arquivo de currículo com o seu nome.
+8. Edite a cópia com os seus dados.
+9. Abra `alunos.html` e adicione um card com seu nome, código (RA) e link para o seu currículo na pasta `curriculos`.
+10. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
+11. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo e card de Maria Souza`.
+12. Envie as alterações para o repositório.
 
 ### como criar seu currículo
 
@@ -82,10 +83,11 @@ Exemplo:
 
 ### checklist antes de enviar
 
-1. O arquivo do currículo está dentro da pasta `curriculos`.
-2. O novo arquivo foi criado a partir de `curriculos/modelo.html`.
-3. O arquivo original `curriculos/modelo.html` não foi alterado nem renomeado.
-4. Você adicionou um card com seu nome, código (RA) e link do currículo em `alunos.html`.
-5. O currículo abre normalmente pela URL completa.
-6. Você fez commit com mensagem clara (ex.: `Adiciona currículo e card de Seu Nome`).
-7. Você enviou (push) as alterações para o repositório.
+1. Você criou e está trabalhando em uma branch com seu nome completo (ex.: `maria-souza`).
+2. O arquivo do currículo está dentro da pasta `curriculos`.
+3. O novo arquivo foi criado a partir de `curriculos/modelo.html`.
+4. O arquivo original `curriculos/modelo.html` não foi alterado nem renomeado.
+5. Você adicionou um card com seu nome, código (RA) e link do currículo em `alunos.html`.
+6. O currículo abre normalmente pela URL completa.
+7. Você fez commit com mensagem clara (ex.: `Adiciona currículo e card de Seu Nome`).
+8. Você enviou (push) as alterações para o repositório.
