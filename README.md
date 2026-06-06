@@ -1,7 +1,6 @@
 # si2023
-O projeto agora possui um site estático simples, feito com HTML, CSS e jQuery, com foco didático.
-
 https://candretta-uniara-edu-br.github.io/si2023/
+
 https://github.com/candretta-uniara-edu-br/si2023/
 
 ## instruções
@@ -17,18 +16,13 @@ Na issue, informe corretamente o e-mail institucional `@uniara.edu.br` que será
 
 Depois da liberação, o convite pode ser aceito em https://github.com/candretta-uniara-edu-br/si2023/invitations ou https://github.com/settings/repositories.
 
-### estrutura do site
+### objetivo da atividade
 
+Cada aluno deverá:
 
-Arquivos principais:
-
-- `index.html`: página inicial com a descrição do projeto.
-- `contato.html`: página de contato da turma/projeto.
-- `alunos.html`: lista de alunos da turma.
-- `participar.html`: guia resumido de participação para os alunos.
-- `css/styles.css`: estilos compartilhados.
-- `js/main.js`: comportamentos da interface e contagem automática dos cards de alunos.
-- `curriculos/modelo.html`: modelo base para cada aluno criar seu currículo.
+1. Criar sua própria página de currículo na pasta `curriculos`.
+2. Copiar `curriculos/modelo.html` para um novo arquivo com o seu nome.
+3. Editar apenas a cópia com os seus dados e publicar a alteração no repositório.
 
 ### fluxo de trabalho sugerido
 
@@ -43,7 +37,23 @@ Arquivos principais:
 9. Abra `alunos.html` e adicione um card com seu nome, código (RA) e link para o seu currículo na pasta `curriculos`.
 10. Não altere nem renomeie o arquivo original `curriculos/modelo.html`.
 11. Faça commit com uma mensagem simples, por exemplo: `Adiciona currículo e card de Maria Souza`.
-12. Envie as alterações para o repositório.
+12. Envie (push) suas alterações para sua branch (ex.: `maria-souza`).
+13. **Crie um pull request (PR)** no GitHub apontando da sua branch para a branch `main`.
+14. **Não faça commit direto na branch `main`** — sempre trabalhe em sua branch pessoal.
+
+### estrutura do site
+
+O projeto agora possui um site estático simples, feito com HTML, CSS e jQuery, com foco didático.
+
+Arquivos principais:
+
+- `index.html`: página inicial com a descrição do projeto.
+- `contato.html`: página de contato da turma/projeto.
+- `alunos.html`: lista de alunos da turma.
+- `participar.html`: guia resumido de participação para os alunos.
+- `css/styles.css`: estilos compartilhados.
+- `js/main.js`: comportamentos da interface e contagem automática dos cards de alunos.
+- `curriculos/modelo.html`: modelo base para cada aluno criar seu currículo.
 
 ### como criar seu currículo
 
@@ -66,7 +76,7 @@ Arquivos principais:
 ```
 
 4. Faça commit com mensagem clara, por exemplo: `Adiciona currículo e card de Seu Nome`.
-5. Envie (push) suas alterações para o repositório.
+5. Envie (push) suas alterações para sua branch.
 
 Observações:
 - Use nomes de arquivo sem espaços e com hifens, por exemplo `maria-souza.html`.
@@ -90,4 +100,7 @@ Exemplo:
 5. Você adicionou um card com seu nome, código (RA) e link do currículo em `alunos.html`.
 6. O currículo abre normalmente pela URL completa.
 7. Você fez commit com mensagem clara (ex.: `Adiciona currículo e card de Seu Nome`).
-8. Você enviou (push) as alterações para o repositório.
+8. Você fez push das alterações para sua branch (não para a `main`).
+9. Você criou um **pull request (PR)** apontando da sua branch para a `main`.
+10. Você **não fez commit direto na branch `main`** — sempre trabalhou em sua branch pessoal.
+
